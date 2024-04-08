@@ -1,0 +1,21 @@
+<form class="discussions-form-container">
+    <h3 class="discussions-form-title">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!
+    </h3>
+
+    <div>
+        <label class="discussions-form-label" for="subject">Assunto:</label>
+        <input type="text" name="subject" id="subject" class="subject"
+            placeholder="Defina um tópico sucinto para notificar os autores..." required>
+    </div>
+
+    <div>
+        <label class="discussions-form-label" for="content">Conteúdo</label>
+
+        <div class="box-area">
+            <textarea class="discussions-form-area" type="text" name="content" id="content" required> </textarea>
+
+            <span class="discussions-box-btn-submit"><button (click)="submit()"
+                    class="btn-create-topic">Enviar</button></span>
+        </div>
+    </div>
+</form>
